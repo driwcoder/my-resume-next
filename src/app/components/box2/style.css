@@ -1,0 +1,56 @@
+.boxDois {
+  font-family: "Roboto Mono", monospace;
+}
+
+.flag {
+  width: 2em;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.Languages, .social{
+  margin-top: 20px;
+}
+
+.portuguese,
+.english {
+  display: flex;
+  align-items: center;
+}
+.portuguese {
+  margin-top: 15px;
+}
+.education {
+  margin-top: 40px;
+  align-items: center;
+}
+
+h3{
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.contact a {
+  text-decoration: none;
+  color: blue;
+}
+
+ul {
+  margin-top: 20px;
+}
+li {
+  margin-left: 40px;
+}
+
+
+.medias {
+  display: flex;
+  justify-content: space-evenly;
+}
+.medias a{
+  color: black;
+  transition: ease 0.4s;
+}
+.medias a:hover{
+  transform: translateY(-8px);
+}

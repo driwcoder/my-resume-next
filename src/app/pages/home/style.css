@@ -1,0 +1,57 @@
+/* GLOBALS */
+.forma {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.home-content {
+  display: flex;
+  padding-top: 70px;
+}
+.boxUm {
+  font-family: "Roboto Mono", monospace;
+}
+.lS {
+  width: 60vw;
+}
+.rS {
+  width: 40vw;
+}
+
+/* INTRODUCING */
+
+/* SOBRE */
+.about {
+  margin-top: 50px;
+}
+
+/* SKILLS */
+
+.dev-skills {
+  margin-top: 40px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* EXPERIENCE & PROJECTS */
+
+.projects {
+  margin-top: 70px;
+}
+.site-photos, .formation {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+.notebook {
+  width: 450px;
+  height: 350px;
+  margin-left: 30px;
+}
