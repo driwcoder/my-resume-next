@@ -8,7 +8,8 @@
   margin-right: 10px;
 }
 
-.Languages, .social{
+.Languages,
+.social {
   margin-top: 20px;
 }
 
@@ -25,9 +26,10 @@
   align-items: center;
 }
 
-h3{
+h3 {
   margin-bottom: 20px;
   color: rgb(0, 0, 0);
+  text-transform: uppercase;
 }
 
 .contact a {
@@ -42,15 +44,24 @@ li {
   margin-left: 40px;
 }
 
-
 .medias {
   display: flex;
   justify-content: space-evenly;
 }
-.medias a{
+.medias a {
   color: black;
   transition: ease 0.4s;
 }
-.medias a:hover{
+.medias a:hover {
   transform: translateY(-8px);
+}
+
+.boxskills {
+  margin-top: 20px;
+}
+.dev-skills {
+  display: flex;
+}
+.boxskills h3 {
+  margin-bottom: 0;
 }
