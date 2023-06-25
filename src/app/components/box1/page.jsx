@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import eu from "../../../../public/eu.png";
-import cel from "../../../../public/oculos-cel.png";
-import note from "../../../../public/oculos-notebook.png";
+import cel from "../../../../public/oculos-cel2.png";
+import note from "../../../../public/oculos-notebook2.png";
 import "./style.css";
 import { BiLogoJavascript, BiLogoReact, BiLogoNodejs, BiServer } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
