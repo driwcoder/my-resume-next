@@ -19,7 +19,7 @@
   font-weight: normal;
 }
 
-.loja-de-oculos a {
+.loja-de-oculos a, .sorveteria a {
   color: blue;
   text-decoration: none;
 }

@@ -24,7 +24,7 @@ export default function BoxUm() {
         <div className='skills'>
           <div className='about'>
             <h3>about me</h3>
-            <p>I have one year of experience as a developer, during which I built excellent procljects, using the most advanced technologies in the current market. In addition, I have skills in graphic design, which allows me to offer greater visual quality to my projects.</p>
+            <p>I have one year of experience as a developer, during which I built excellent projects, using the most advanced technologies in the current market. In addition, I have skills in graphic design, which allows me to offer greater visual quality to my projects, and the best user experience.</p>
           </div>
 
           <div className='boxskills'>
