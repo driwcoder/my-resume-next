@@ -11,10 +11,12 @@
   font-family: "Roboto Mono", monospace;
 }
 .lS {
-  width: 60vw;
+  width: 60%;
+  padding: 20px;
 }
 .rS {
-  width: 40vw;
+  width: 40%;
+  padding: 20px;
 }
 
 /* INTRODUCING */
@@ -25,7 +27,6 @@
 }
 
 /* SKILLS */
-
 
 .skill {
   display: flex;
@@ -43,7 +44,8 @@
 .projects {
   margin-top: 70px;
 }
-.site-photos, .formation {
+.site-photos,
+.formation {
   display: flex;
   align-items: center;
   margin-top: 35px;
@@ -52,4 +54,57 @@
   width: 450px;
   height: 350px;
   margin-left: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .home-content {
+    flex-direction: column;
+  }
+  .rS,
+  .lS {
+    width: 100%;
+  }
+  .apresentacao {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .site-photos,
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .notebook {
+    width: 450px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .boxDois-content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .site-photos .formation {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  .formation {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  
 }

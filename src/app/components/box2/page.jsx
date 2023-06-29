@@ -74,7 +74,7 @@ export default function BoxDois() {
           <ul>
             <h4>React</h4>
             <li>Multi-component page with reusable components in React.</li>
-            <li>Connection with RESTful APIs using the Fetch API or libraries like Axios.</li>
+            <li>Connection with RESTful APIs using the Fetch API or libraries like Sequelize.</li>
             <li>Knowledge in React Hooks (useState, useEffect, useContext, etc.).</li>
             <li>Implementing routes with React Router.</li>
           </ul>
