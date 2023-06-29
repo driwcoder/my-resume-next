@@ -90,6 +90,9 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .social{
+    margin-bottom: 20px;
+  }
 }
 
 
@@ -106,5 +109,33 @@
     margin-top: 35px;
     flex-direction: column;
   }
-  
+  .apresentacao {
+    flex-direction: column;
+  }
+  .apresentacao .text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .apresentacao img {
+    margin: 0;
+  }
+  .about p {
+    padding: 0;
+  }
+  .skill {
+    margin: 10px;
+  }
+  .medias .icons {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .site-photos img {
+    width: auto;
+    height: auto;
+  }
+  .notebook {
+    display: none;
+  }
 }
