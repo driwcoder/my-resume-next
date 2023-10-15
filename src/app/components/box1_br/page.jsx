@@ -19,18 +19,18 @@ export default function BoxUm() {
         <div className='apresentacao'>
           <Image src={eu} alt='Adriano Campos' />
           <div className='text'>
-            <h1>Hi, I'm Adriano!</h1>
-            <p>React Developer</p>
+            <h1>Olá, sou Adriano!</h1>
+            <p>Desenvolvedor React</p>
           </div>
         </div>
         <div className='skills'>
           <div className='about'>
-            <h3>about me</h3>
-            <p>I have one year of experience as a developer, during which I built excellent projects, using the most advanced technologies in the current market. In addition, I have skills in graphic design, which allows me to offer greater visual quality to my projects, and the best user experience.</p>
+            <h3>Sobre mim</h3>
+            <p>Tenho um ano de experiência como desenvolvedor, durante o qual construí excelentes projetos, utilizando as tecnologias mais avançadas do mercado atual. Além disso, possuo habilidades em design gráfico, o que me permite oferecer maior qualidade visual aos meus projetos, e a melhor experiência do usuário.</p>
           </div>
 
           <div className='boxskills'>
-            <h3>Tecnologies</h3>
+            <h3>Tecnologias</h3>
             <ul className='dev-skills'>
               <div className='dev-skill-le'>
                 <li className='skill'>
@@ -80,12 +80,12 @@ export default function BoxUm() {
           </div>
         </div>
         <div className='projects'>
-          <h3>PROJECTS</h3>
+          <h3>PROJETOS</h3>
           <div className='loja-de-oculos'>
-            <h4>Glasses store</h4>
-            <p>Responsive website, built with react components</p>
+            <h4>Loja de óculos</h4>
+            <p>Site responsivo, construído com componentes react</p>
             <a href='https://loja-de-oculos-six.vercel.app/' target='_blank'>
-              project link
+            link do projeto
             </a>
             <div className='site-photos'>
               <Image src={cel} alt='celular' />
@@ -93,10 +93,10 @@ export default function BoxUm() {
             </div>
           </div>
           <div className='sorveteria'>
-            <h4>IceCream store</h4>
-            <p>Responsive website, built with react components, routed pages with react-router library </p>
+            <h4>Loja de sorvete</h4>
+            <p>Site responsivo, construído com componentes react, páginas roteadas com biblioteca react-router</p>
             <a href='https://sorveteria-six.vercel.app/' target='_blank'>
-              project link
+              link do projeto
             </a>
             <div className='site-photos'>
               <Image src={cels} alt='celular' />

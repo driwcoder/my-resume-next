@@ -1,12 +1,13 @@
-import BoxUm from "@/app/components/box1/page";
-import Link from "next/link";
+import BoxUm from "@/app/components/box1_br/page";
 import "./style.css";
-import BoxDois from "@/app/components/box2/page";
+import BoxDois from "@/app/components/box2_br/page";
+import Document from "../_documents";
 
-export default function Home() {
+export default function Ptbr() {
   return (
     <div className='home'>
       <div className='home-content forma'>
+        <Document />
         <div className='lS'>
           <BoxUm />
         </div>

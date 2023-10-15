@@ -1,0 +1,152 @@
+/* GLOBALS */
+.forma {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.home-content {
+  display: flex;
+  /* padding-top: 0px 70px; */
+}
+.boxUm {
+  font-family: "Roboto Mono", monospace;
+}
+.lS {
+  width: 60%;
+  padding: 20px;
+}
+.rS {
+  width: 40%;
+  padding: 20px;
+}
+
+/* ESCOLHER LINGUA */
+
+.menu-lingua {
+  display: flex;
+}
+.menu-lingua .english,
+.menu-lingua .portuguese {
+  padding: 0;
+  margin: 15px 0;
+}
+
+/* INTRODUCING */
+
+/* SOBRE */
+.about {
+  margin-top: 50px;
+}
+
+/* SKILLS */
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* EXPERIENCE & PROJECTS */
+
+.projects {
+  margin-top: 70px;
+}
+.site-photos,
+.formation {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+.notebook {
+  width: 450px;
+  height: 350px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+  .home-content {
+    flex-direction: column;
+  }
+  .rS,
+  .lS {
+    width: 100%;
+  }
+  .apresentacao {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .site-photos,
+  .formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .notebook {
+    width: 450px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .boxDois-content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .social{
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .site-photos .formation {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  .formation {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+  }
+  .apresentacao {
+    flex-direction: column;
+  }
+  .apresentacao .text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .apresentacao img {
+    margin: 0;
+  }
+  .about p {
+    padding: 0;
+  }
+  .skill {
+    margin: 10px;
+  }
+  .medias .icons {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .site-photos img {
+    width: auto;
+    height: auto;
+  }
+  .notebook {
+    display: none;
+  }
+}

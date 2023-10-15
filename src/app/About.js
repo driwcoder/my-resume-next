@@ -1,0 +1,8 @@
+// src/app/pages/about.js
+import React from 'react';
+
+function About() {
+  return <h1>Sobre nós</h1>;
+}
+
+export default About;

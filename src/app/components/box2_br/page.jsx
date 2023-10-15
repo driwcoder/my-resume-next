@@ -16,7 +16,7 @@ export default function BoxDois() {
     <div className='boxDois'>
       <div className='boxDois-content'>
         <div className='contact'>
-          <h3>Contact me</h3>
+          <h3>Fale comigo</h3>
 
           <p>
             Tel/Whatsapp:
@@ -34,7 +34,7 @@ export default function BoxDois() {
           </p>
         </div>
         <div className='social'>
-          <h3>Social Medias</h3>
+          <h3>Redes Sociais</h3>
           <div className='medias'>
             <a href='https://www.instagram.com/driwcoder/' target='_blank'>
               <BiLogoInstagram className='icons' />
@@ -51,89 +51,93 @@ export default function BoxDois() {
           </div>
         </div>
         <div className='Languages'>
-          <h3>Languages</h3>
+          <h3>Linguas</h3>
           <div className='english'>
             <Link href='/'>
               <Image src={US} alt='united-states' className='flag' />
             </Link>
-            <p>English - Advanced</p>
+            <p>Inglês - Avançado</p>
           </div>
           <div className='portuguese'>
             <Link href='/ptbr'>
               <Image src={brazil} alt='brazil' className='flag' />
             </Link>
-            <p>Brazilian Portuguese - Native</p>
+            <p>Português Brasileiro - Nativo</p>
           </div>
         </div>
         <div className='education'>
-          <h3>Formation</h3>
+          <h3>Formação</h3>
 
           <div className='formation'>
             <Image src={cap} alt='formação' className='flag' />
-            <p>DevMedia - Fullstack JavaScript Course</p>
+            <p>DevMedia - Fullstack JavaScript</p>
           </div>
           <ul>
             <h4>JavaScript</h4>
             <li>
-              Use of popular libraries and frameworks such as Express.js,
-              Node.js, or React.js.
+              Uso de bibliotecas e estruturas populares como Express.js, Node.js
+              e React.js.
             </li>
             <li>
-              Data manipulation and transformation using ES6+ functionalities
-              (Arrow functions, destructuring, spread operator, etc.).
+              Manipulação e transformação de dados utilizando funcionalidades
+              ES6+ (arrow function, desestruturação, operador de propagação,
+              etc.).
             </li>
             <li>
-              Using Promises, async/await and handling asynchronous requests.
+              Uso de Promises, async/await e tratamento de solicitações
+              assíncronas.
             </li>
             <li>
-              Advanced manipulation of the DOM (Document Object Model) with pure
-              JavaScript.
+              Manipulação avançada do DOM (Document Object Model) com JavaScript
+              puro.
             </li>
           </ul>
           <ul>
             <h4>React</h4>
-            <li>Page with reusable multicomponents.</li>
+            <li>Página com multicomponente reutilizáveis.</li>
             <li>
-              Connecting to RESTful APIs using the Fetch API or libraries like
-              Express, Sequelize, Prisma, or native to Nextjs13.
+              Conexão com APIs RESTful usando a API Fetch ou bibliotecas como
+              Express, Sequelize, Prisma, ou nativo do Nextjs13.
             </li>
             <li>
-              Knowledge of React Hooks (useState, useEffect, useContext, etc.).
+              Conhecimento de React Hooks (useState, useEffect, useContext,
+              etc.).
             </li>
-            <li>Implementation of routes with React Router.</li>
+            <li>Implementação de rotas com React Router.</li>
             <li>
-              Ability to create and manage routes using Express.js or similar.
-            </li>
-            <li>
-              Experience creating and using middleware for functions such as
-              authentication, data validation, error handling, etc.
+              Capacidade de criar e gerenciar rotas usando Express.js ou
+              similar.
             </li>
             <li>
-              Knowledge of dynamic routing to handle parameters variables in the
-              URL.
+              Experiência na criação e uso de middleware para funções como
+              autenticação, validação de dados, manipulação de erros, etc.
+            </li>
+            <li>
+              Conhecimento em roteamento dinâmico para lidar com parâmetros
+              variáveis na URL.
             </li>
           </ul>
           <ul>
             <h4>API</h4>
             <li>
-              RESTful API Creation: Ability to create a RESTful API using
-              Node.js with Express.js.
+              Criação de API RESTful: Capacidade de criar uma API RESTful usando
+              Node.js com Express.js.
             </li>
             <li>
-              Authentication and Authorization: Implementation of authentication
-              and authorization using JWT (JSON Web Tokens) or OAuth.
+              Autenticação e Autorização: Implementação de autenticação e
+              autorização usando JWT (JSON Web Tokens) ou OAuth.
             </li>
             <li>
-              API Testing: Experience with API testing tools like Postman or
-              Insomnia.
+              Teste de API: Experiência com ferramentas de teste de API como
+              Postman ou Insomnia.
             </li>
             <li>
-              Endpoint Creation: Ability to create endpoints for different CRUD
-              (Create, Read, Update, Delete) operations.
+              Criação de Endpoints: Habilidade para criar endpoints para
+              diferentes operações CRUD (Criar, Ler, Atualizar, Deletar).
             </li>
             <li>
-              Error Handling: Ability to properly handle errors and return
-              appropriate responses.
+              Manipulação de Erros: Capacidade para lidar adequadamente com
+              erros e retornar respostas apropriadas.
             </li>
           </ul>
         </div>

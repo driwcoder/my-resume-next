@@ -1,5 +1,5 @@
-import Home from "./pages/home/page";
-import Document from "./pages/_documents";
+import Home from "./home/page";
+import Document from "./_documents";
 import "./globals.css";
 import "./page.module.css";
 

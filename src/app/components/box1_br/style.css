@@ -1,0 +1,32 @@
+.apresentacao {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+.apresentacao img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px 2px inset rgb(0, 0, 0);
+  margin-right: 30px;
+}
+.apresentacao p {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+}
+.apresentacao h1 {
+  font-weight: normal;
+}
+
+.loja-de-oculos a, .sorveteria a {
+  color: blue;
+  text-decoration: none;
+}
+.sorveteria {
+  margin-top: 20px;
+}
+
+.about p {
+  padding-right: 80px;
+}
